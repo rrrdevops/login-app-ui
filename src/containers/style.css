@@ -1,0 +1,40 @@
+@media all and (min-width: 480px) {
+    .Signup, .Login, .Profile {
+      padding: 60px 0;
+    }
+  
+    .Signup form, .Login form, .Profile form {
+      margin: 0 auto;
+      max-width: 320px;
+    }
+  }
+
+body 
+{
+  font-family:Arial; 
+  background: -webkit-linear-gradient(to right, #155799, #159957); 
+  background: linear-gradient(to right, #155799, #159957); 
+  color:whitesmoke;
+}
+input[type=username], input[type=password]{
+    width: 100%;
+    margin: 10px 0;
+    border-radius: 5px;
+    padding: 15px 18px;
+    box-sizing: border-box;
+  }
+
+  button {
+    background-color: #030804;
+    color: white;
+    padding: 14px 20px;
+    border-radius: 5px;
+    margin: 7px 0;
+    width: 100%;
+    font-size: 18px;
+  }
+
+button:hover {
+    opacity: 0.6;
+    cursor: pointer;
+  }
